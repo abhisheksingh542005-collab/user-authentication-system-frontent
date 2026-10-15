@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:4000/api/v1",
+  baseURL: "https://user-authentication-system-backent.onrender.com/api/v1",
   withCredentials: true, // Auto-send HttpOnly JWT Cookies
   headers: {
     "Content-Type": "application/json",
